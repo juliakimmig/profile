@@ -10,17 +10,39 @@ h1, h2, h3 {
   letter-spacing: 1.5px;
   color: #B94242;
   font-weight: 700;
-
 }
 
 h2 {
   font-size: 25px;
 }
 
-h4 {
-  font-size: 22px;
-  color: #B94242!;
+p {
+  font-weight: 200;
 }
+
+li {
+  font-weight: 200;
+  line-height: 2;
+}
+
+ul {
+  margin-bottom: 40px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+h4 {
+  font-size: 20px;
+  color: #B94242!;
+  font-weight: 200;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 
 img {
   width: 200px;
@@ -66,11 +88,15 @@ a {
   border-color: #B94242;
   border-style: solid;
   border-radius: 5px;
+  /*margin-bottom: 80px;*/
+  display: block;
+  width: 100px;
+  margin: 20px auto;
 }
 
 .list-skills {
   text-align: left;
-  padding-left: 25%;
+  padding-left: 12%;
 }
 
 .list-inline > li {
@@ -79,6 +105,8 @@ a {
   padding-left: 0px;
   padding-right: 10px;
   font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 @media (max-width: 960px) {
@@ -100,3 +128,41 @@ a {
   }
 }
 
+.footer {
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+  }
+
+  .card img {
+  width: 100px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 15px;
+  /*box-shadow: 0 0 4px rgb(70,32,26, 0.3);*/
+  text-align: center;
+  padding: 20px;
+  border: 3px solid rgb(70,32,26, 0.2);
+  height: 180px;
+  margin: 20px;
+}
+
+.card p {
+  color: #000;
+}
+
+.ul-footer {
+  margin-bottom: 10px;
+}
